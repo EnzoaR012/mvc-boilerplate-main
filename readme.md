@@ -1,6 +1,23 @@
 # Boilerplate MVC em Node.js com PostgreSQL
 
-Este projeto é um boilerplate básico para uma aplicação Node.js seguindo o padrão MVC (Model-View-Controller), utilizando PostgreSQL como banco de dados.
+Explique com suas palavras o papel de cada camada da arquitetura MVC usada neste projeto.
+Como o Model, o Controller e a View interagem entre si?
+-O Model e a parte que cuida dos dados logicos da aplicação, ele representa a parte que o sistema usa. O Controller e a parte visula da do projeto como exemplo a tela. 
+O Controller é o cérebro da aplicação, responsável por receber as ações do usuário.
+
+Como ocorre o envio e o recebimento de dados no formato JSON neste projeto?
+Cite uma rota que responde em JSON e explique seu funcionamento.
+-No projeto, os dados são enviados e recebidos em formato JSON entre o navegador (View) e o servidor (Controller).
+A View envia requisições com dados em JSON usando fetch() ou axios, e o Controller processa essas requisições,
+interage com o Model se necessário, e responde também em JSON para que a interface seja atualizada dinamicamente.
+
+Qual a importância de usar HTML básico com formulários e tabelas para organizar e manipular dados no navegador?
+-Formulários e tabelas em HTML são essenciais para capturar e exibir dados de forma simples e organizada.
+Eles permitem interações básicas, como cadastros e visualização de informações, sendo leves, acessíveis e compatíveis com todos os navegadores.
+
+Por que esse tipo de estrutura ainda é útil em projetos back-end com Node.js?
+-Em projetos com Node.js, essas estruturas facilitam o envio de dados para o servidor e a exibição de resultados com templates. 
+São práticos para testes, protótipos e desenvolvimento rápido sem depender de tecnologias complexas.
 
 ## Requisitos
 

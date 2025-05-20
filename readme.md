@@ -2,7 +2,7 @@
 
 Explique com suas palavras o papel de cada camada da arquitetura MVC usada neste projeto.
 Como o Model, o Controller e a View interagem entre si?
--O Model e a parte que cuida dos dados logicos da aplicação, ele representa a parte que o sistema usa. O Controller e a parte visula da do projeto como exemplo a tela. 
+-O Model e a parte que cuida dos dados logicos da aplicação, ele representa a parte que o sistema usa. O View e a parte visula da do projeto como exemplo a tela. 
 O Controller é o cérebro da aplicação, responsável por receber as ações do usuário.
 
 Como ocorre o envio e o recebimento de dados no formato JSON neste projeto?
